@@ -1,0 +1,283 @@
+@use "../../node_modules/bootstrap/scss/bootstrap" with (
+  
+  $card-cap-bg:#beeceb !important,  
+
+);
+
+/* VARIABLEN START */
+
+$title-font: "Viga", sans-serif;
+$header-link-font-size-mobile: 1rem;
+$header-link-font-size: 1.5rem;
+/* VARIABLEN END */
+
+
+
+.btn {
+  background-color: #1aa19f !important;  
+}
+
+.btn-outline-success {
+  color: white !important;
+  color:white !important;
+}
+
+a {
+  text-decoration: none !important;
+}
+
+.stern{
+  color: red;
+}
+
+
+body {
+  nav {
+    div {
+      div {
+        ul {
+          li {
+            font-size: $header-link-font-size-mobile;
+            margin-inline: 3px;
+            margin-bottom: 1px;
+
+          }
+        }
+      }
+    }
+  }
+}
+
+.öffnung-card{
+
+  .card-body{
+
+    .shadow{
+      width: 200vw;
+    }
+  }
+
+}
+
+
+.nav-link:hover{
+  background-color: #1aa19f;
+  border-radius: 5px;
+  color: white !important;
+}
+
+.active-link {
+  background-color: #1aa19f;
+  color: white !important;
+  border-radius: 5px;
+  border: none;
+}
+
+body > nav > #new-navbar {
+  display: flex;
+  justify-content: space-between !important;
+}
+
+.navbar-collapse {
+  flex-grow: 0 !important;
+}
+
+.praxis {
+  font-size: 0.75rem;
+  font-family: $title-font;
+}
+
+.cards div {
+  margin-top: 10px;
+}
+
+.card {
+  ul {
+    li {
+      list-style: none;
+      padding: 4px;
+    }
+  }
+}
+
+section > div > img {
+  height: 80vh;
+  background-size: cover;
+  box-sizing: border-box;
+}
+
+
+a {
+  text-decoration: none;
+}
+.buttons{
+  border: none !important;
+}
+
+.workshop{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+
+  .card-header{
+    font-family: $title-font;
+    text-align: center;
+    font-size: 1.2em;
+    padding: 2rem 1rem;
+  }
+}
+
+
+.angebote-cards {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+
+  .card {
+    margin: 10px;
+    height: 400px;
+    width: 600px;
+
+    .card-header {
+      text-align: center;
+      font-family: $title-font;
+      font-size: 1.25em;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+  }
+}
+
+@media screen and (min-width: 768px) {
+  body {
+    nav {
+      div {
+        div {
+          ul {
+            li {
+              font-size: $header-link-font-size-mobile;
+            }
+          }
+        }
+      }
+    }
+  }
+
+
+  .angebote-cards{
+
+    .card{
+
+      margin: 20px;
+      height: 300px;
+      width: 600px;
+
+      .card-header {
+        height: 100px !important;
+      }
+    }
+  }
+}
+
+
+
+
+
+
+
+// animation header 
+.loader h2{
+  width: 100%;
+  position: relative;
+  color:white;
+  letter-spacing: 5px;
+  font-size: 2em;
+  // text-transform: uppercase;
+  animation: typing1 .5s steps(10) 1;
+  overflow: hidden;
+  text-align: center;
+  
+  }
+  .loader h4{
+    width: 100%;
+    position: relative;
+    color:white;
+    letter-spacing: 5px;
+    font-size: 2em;
+    // text-transform: uppercase;
+    animation: typing1 1s steps(10) 1;
+    overflow: hidden;
+    text-align: center;
+    
+
+     }
+  @keyframes typing1 {
+    0%,45%,50%,80%{
+    width: 0;
+    overflow: 0;
+    
+    }
+    
+
+    }
+
+
+    .loader h3{
+      width: 100%;
+      position: relative;
+      color:white;
+      letter-spacing: 5px;
+      font-size: 2em;
+      /* text-transform: uppercase; */
+      animation: typing1 1.5s steps(10) 1;
+      overflow: hidden;
+      text-align: center;
+      }
+
+
+      @keyframes typing2 {
+        0%,90%,100%{
+        width: 0;
+        overflow: 0;
+        
+        }
+        30%,60%{
+        width: 550px;
+        overflow: none;
+        }
+        }
+/*end animation*/ 
+
+
+
+
+main div p{
+  text-align: justify;
+  padding: 12px;
+}
+
+
+
+div.divseiz {
+     width: 400px;
+
+}
+
+div.divseiz:hover{
+padding: 20px !important;
+
+
+}
+.carousel-size{
+  width: 70vw;
+  display: flex;
+  margin: auto auto;
+
+ 
+}
+/*d-block w-100 */ 
+
+
+
+

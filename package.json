@@ -1,0 +1,28 @@
+{
+  "name": "finalprojekt",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.html",
+  "scripts": {
+    "start": "sass ./src/scss/main.scss ./src/style/main.css --watch",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "publish": "gh-pages -d dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ahmetyanik/FinalProjekt.git"
+  },
+  "author": "Ghania,Siddik, Ahmet",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ahmetyanik/FinalProjekt/issues"
+  },
+  "homepage": "https://github.com/ahmetyanik/FinalProjekt#readme",
+  "devDependencies": {
+    "sass": "^1.38.0"
+  },
+  "dependencies": {
+    "bootstrap": "^5.1.0",
+    "gh-pages": "^3.2.3"
+  }
+}
